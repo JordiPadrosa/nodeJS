@@ -1,0 +1,82 @@
+{
+  "productes": [
+    {
+      "nom": "pera",
+      "tipus": "aliment",
+      "preu": "10",
+      "categoria": "fruita",
+      "id": "b689eb18-f7ec-495c-9e95-df6a8139682f",
+      "createdAt": "23/2/2023, 12:38:23",
+      "updatedAt": "23/2/2023, 12:42:57"
+    },
+    {
+      "nom": "poma",
+      "tipus": "aliment",
+      "preu": "7",
+      "categoria": "fruita",
+      "id": "688211d2-7431-4844-b58f-7b7640da7c5d",
+      "createdAt": "23/2/2023, 12:38:30",
+      "updatedAt": "23/2/2023, 12:38:30"
+    },
+    {
+      "nom": "xocolata",
+      "tipus": "aliment",
+      "preu": "7",
+      "categoria": "bulleria",
+      "id": "6fa8faa3-9674-45cb-a81b-a737dc2ac875",
+      "createdAt": "23/2/2023, 12:39:10",
+      "updatedAt": "23/2/2023, 12:39:10"
+    }
+  ],
+  "estocs": [
+    {
+      "producte": "b689eb18-f7ec-495c-9e95-df6a8139682f",
+      "caducitat": "15/10/2024",
+      "dataVenda": "15/10/2023",
+      "ubicacio": "calaix 1",
+      "id": "12a410bc-849f-4e7e-bfc8-4ef283ee4b19",
+      "createdAt": "4/20/2022, 2:21:56 PM",
+      "updatedAt": "23/2/2023, 10:26:17"
+    },
+    {
+      "producte": "688211d2-7431-4844-b58f-7b7640da7c5d",
+      "caducitat": "15/10/2020",
+      "dataVenda": "4/10/2023",
+      "ubicacio": "calaix 3",
+      "id": "11817fb1-03a1-4b4a-8d27-854ac893cf41",
+      "createdAt": "11/20/2021, 5:39:07 PM",
+      "updatedAt": "23/2/2023, 12:48:40"
+    },
+    {
+      "producte": "6fa8faa3-9674-45cb-a81b-a737dc2ac875",
+      "caducitat": "15/10/2024",
+      "dataVenda": "15/10/2023",
+      "ubicacio": "calaix 2",
+      "id": "f130e0c0-351a-49f1-a068-341a136ea527",
+      "createdAt": "23/2/2023, 12:52:42",
+      "updatedAt": "23/2/2023, 12:52:42"
+    }
+  ],
+  "maquines": [
+    {
+      "id": "12a410bc-849f-4e7e-bfc8-4ef283ee4b19",
+      "municipi": "Olot",
+      "adreca": "Carrer Vern"
+    },
+    {
+      "id": "2b9130d4-47a7-4085-800e-0144f6a46059",
+      "municipi": "Olot",
+      "adreca": "Carrer Pep"
+    }
+  ],
+  "categories": [
+    {
+      "nom": "fruita",
+      "iva": "21"
+    },
+    {
+      "nom": "bulleria",
+      "iva": "21"
+    }
+  ]
+}
